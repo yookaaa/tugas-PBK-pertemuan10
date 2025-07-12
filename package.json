@@ -1,22 +1,30 @@
 {
-  "name": "tugas-10-pbk",
+  "name": "edurpg",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "api": "json-server --watch db.json --routes json-server-routes.json --port 3000"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@vueuse/head": "^2.0.0",
     "axios": "^1.10.0",
-    "pinia": "^3.0.3",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.1"
+    "pinia": "^2.3.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "vue3-toastify": "^0.2.8"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.3",
-    "sass-embedded": "^1.89.0",
-    "vite": "^6.3.5"
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/test-utils": "^2.3.2",
+    "jsdom": "^22.1.0",
+    "json-server": "^0.17.3",
+    "sass": "^1.63.6",
+    "vite": "^4.4.5",
+    "vitest": "^0.32.2"
   }
 }

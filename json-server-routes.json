@@ -1,0 +1,16 @@
+{
+  "/api/*": "/$1",
+  "/auth/:action": "/auth/:action",
+  "/forum/categories": "/forum_categories",
+  "/forum/categories/:categoryId/threads": "/forum_threads?categoryId=:categoryId",
+  "/forum/threads/:threadId": "/forum_threads/:threadId",
+  "/forum/threads/:threadId/posts": "/forum_posts?threadId=:threadId",
+  "/game/stats": "/users/1",
+  "/game/leaderboard": "/users",
+  "/game/shop": "/game_shop",
+  "/game/quests": "/game_quests",
+  "/game/experience": "/users/1",
+  "/users/profile": "/users/1",
+  "/users/password": "/users/1",
+  "/users/avatar": "/users/1"
+}
